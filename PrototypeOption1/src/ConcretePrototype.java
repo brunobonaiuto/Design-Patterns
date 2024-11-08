@@ -1,5 +1,4 @@
 public class ConcretePrototype implements Prototype{
-
     private String brand;
     private String model;
     private String color;
@@ -13,7 +12,7 @@ public class ConcretePrototype implements Prototype{
     }
 
     //constructor used only for cloning
-    public ConcretePrototype(ConcretePrototype prototype) {
+    private ConcretePrototype(ConcretePrototype prototype) {
         this.brand = prototype.brand;
         this.model = prototype.model;
         this.color = prototype.color;
@@ -23,5 +22,15 @@ public class ConcretePrototype implements Prototype{
     @Override
     public ConcretePrototype clone() {
         return new ConcretePrototype(this);
+    }
+
+    @Override
+    public String toString() {
+        return "ConcretePrototype{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", topSpeed=" + topSpeed +
+                '}';
     }
 }
