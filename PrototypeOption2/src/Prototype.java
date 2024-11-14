@@ -1,3 +1,3 @@
 public interface Prototype {
-    SubClassPrototype clone();
+    SubClassPrototype1 clone();
 }

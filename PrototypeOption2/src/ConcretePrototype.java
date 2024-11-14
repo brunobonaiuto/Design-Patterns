@@ -1,4 +1,5 @@
 public abstract class ConcretePrototype {
+    //Fields of the class are inmutable
     private String brand;
     private String model;
     private String color;

@@ -1,20 +1,20 @@
-public class SubClassPrototype extends ConcretePrototype{
+public class SubClassPrototype2 extends ConcretePrototype{
     private final int topSpeed;
 
-    public SubClassPrototype(String brand, String model, String color, int topSpeed) {
+    public SubClassPrototype2(String brand, String model, String color, int topSpeed) {
         super(brand,model,color);
         this.topSpeed = topSpeed;
     }
 
     //constructor used only for cloning
-    private SubClassPrototype(SubClassPrototype subClassPrototype) {
+    private SubClassPrototype2(SubClassPrototype2 subClassPrototype) {
         super(subClassPrototype);
         this.topSpeed = subClassPrototype.topSpeed;
     }
 
     @Override
-    public SubClassPrototype clone() {
-        return new SubClassPrototype(this);
+    public SubClassPrototype2 clone() {
+        return new SubClassPrototype2(this);
     }
 
     @Override
