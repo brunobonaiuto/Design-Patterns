@@ -1,4 +1,7 @@
 public class Product1 {
+    /*
+    Products are resulting objects. Products constructed by different builders don’t have to belong to the same class hierarchy or interface.
+    */
 
     private final int id;
     private final int height;

@@ -1,4 +1,8 @@
 public class ConcreteBuilder2 implements Builder {
+    /*
+    Concrete Builders provide different implementations of the construction steps.
+    Concrete builders may produce products that don’t follow the common interface.
+    */
 
     private int id;
     private int height;
