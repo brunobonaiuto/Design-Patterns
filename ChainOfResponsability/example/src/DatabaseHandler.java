@@ -2,16 +2,16 @@
  * The Handler declares the interface(an abstract class in this case), common for all concrete handlers.
  * It usually contains just a single method for handling requests, but sometimes it may also have another method for setting the next handler on the chain.
  */
-public abstract class Handler {
+public abstract class DatabaseHandler {
     /**
      * Field for storing a reference to the next handler.
      */
-    private Handler next;
+    private DatabaseHandler next;
 
     /**
      * The clients can build a chain by passing a handler to the constructor or setter of the previous handler.
      */
-    public Handler setNextHandler(Handler next) {
+    public DatabaseHandler setNextHandler(DatabaseHandler next) {
         this.next = next;
         return next;
     }
