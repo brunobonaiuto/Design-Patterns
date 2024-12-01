@@ -4,6 +4,7 @@
     <option name="moduleMapping">
       <map>
         <entry key="PrototypeOption1" value="Prototype" />
+        <entry key="exampleChainOfResponsibility" value="example" />
       </map>
     </option>
   </component>
