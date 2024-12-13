@@ -1,3 +1,7 @@
+package components;
+
+import commands.Command;
+
 public abstract class AbstractButtonSender {
 
     private Command command;

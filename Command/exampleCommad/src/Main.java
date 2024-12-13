@@ -1,3 +1,8 @@
+import commands.CopyCommand;
+import commands.PasteCommand;
+import components.ButtonSender;
+import components.TextEditorReceiver;
+
 public class Main {
     public static void main(String[] args) {
 

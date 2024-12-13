@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/PrototypeOption2/PrototypeOption2.iml" filepath="$PROJECT_DIR$/PrototypeOption2/PrototypeOption2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChainOfResponsability/exampleChainOfResponsibility/exampleChainOfResponsibility.iml" filepath="$PROJECT_DIR$/ChainOfResponsability/exampleChainOfResponsibility/exampleChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/exampleCommad/exampleCommad.iml" filepath="$PROJECT_DIR$/Command/exampleCommad/exampleCommad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Command/exampleCommandTwo/exampleCommandTwo.iml" filepath="$PROJECT_DIR$/Command/exampleCommandTwo/exampleCommandTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/factoryMethod/factoryMethod.iml" filepath="$PROJECT_DIR$/factoryMethod/factoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/singelton/singelton.iml" filepath="$PROJECT_DIR$/singelton/singelton.iml" />
     </modules>

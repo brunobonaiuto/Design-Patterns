@@ -1,3 +1,5 @@
+package components;
+
 public class ButtonSender extends AbstractButtonSender {
 
     private final TextEditorReceiver textEditorReceiver;

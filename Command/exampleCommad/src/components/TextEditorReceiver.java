@@ -1,3 +1,5 @@
+package components;
+
 public class TextEditorReceiver {
     private String currentText = null;
     private String clipBoardText = null;
