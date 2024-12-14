@@ -25,11 +25,9 @@ public final class PasteCommand implements Command {
     public void execute() {
         if (editorReceiver.getClipBoard() == null || editorReceiver.getClipBoard().isEmpty()) {
             System.out.println("There is not text to paste");
-            return false;
         }
         System.out.println("You have pasted the following text: "+ editorReceiver.getClipBoard());
         editorReceiver.setClipBoard(editorReceiver.getCurrentText());
-        return true;
     }
 
 }
