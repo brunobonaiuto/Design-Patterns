@@ -19,6 +19,7 @@ public class Main {
         // Director is not aware and not dependent on concrete builders and
         // products.
         Car car = builder.getResult();
+        car.setFuel(99); //TODO Optional
         System.out.println("Car built:\n" + car.getCarType());
 
 
