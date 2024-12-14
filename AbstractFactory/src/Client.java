@@ -2,7 +2,6 @@ public class Client {
     public static void main(String[] args) {
         /*
         - Abstract Factory is a creational design pattern that lets you produce FAMILIES OF RELATED OBJECTS without specifying their concrete classes.
-
         */
 
         //Factory1
