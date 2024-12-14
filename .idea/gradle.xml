@@ -5,6 +5,11 @@
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Builder/exampleBuilder" />
         <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Builder/exampleBuilder" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
