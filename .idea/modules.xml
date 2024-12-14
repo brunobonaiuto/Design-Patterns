@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/PrototypeOption1/PrototypeOption1.iml" filepath="$PROJECT_DIR$/PrototypeOption1/PrototypeOption1.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrototypeOption2/PrototypeOption2.iml" filepath="$PROJECT_DIR$/PrototypeOption2/PrototypeOption2.iml" />
       <module fileurl="file://$PROJECT_DIR$/AbstractFactory/abstractFactoryExample/abstractFactoryExample.iml" filepath="$PROJECT_DIR$/AbstractFactory/abstractFactoryExample/abstractFactoryExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/exampleBuilder.iml" filepath="$PROJECT_DIR$/exampleBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Builder/exampleBuilder/exampleBuilder.iml" filepath="$PROJECT_DIR$/Builder/exampleBuilder/exampleBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exampleBuilder.main.iml" filepath="$PROJECT_DIR$/.idea/modules/exampleBuilder.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exampleBuilder.test.iml" filepath="$PROJECT_DIR$/.idea/modules/exampleBuilder.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChainOfResponsability/exampleChainOfResponsibility/exampleChainOfResponsibility.iml" filepath="$PROJECT_DIR$/ChainOfResponsability/exampleChainOfResponsibility/exampleChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/exampleCommad/exampleCommad.iml" filepath="$PROJECT_DIR$/Command/exampleCommad/exampleCommad.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/exampleCommandThree/exampleCommandThree.iml" filepath="$PROJECT_DIR$/Command/exampleCommandThree/exampleCommandThree.iml" />
