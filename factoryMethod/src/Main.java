@@ -11,5 +11,6 @@ public class Main {
 
         Creator concreteCreatorB = new ConcreteCreatorB();
         Product productB = concreteCreatorB.getProduct();
+
     }
 }
