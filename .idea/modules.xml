@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exampleBuilder.test.iml" filepath="$PROJECT_DIR$/.idea/modules/exampleBuilder.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChainOfResponsability/exampleChainOfResponsibility/exampleChainOfResponsibility.iml" filepath="$PROJECT_DIR$/ChainOfResponsability/exampleChainOfResponsibility/exampleChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/exampleCommad/exampleCommad.iml" filepath="$PROJECT_DIR$/Command/exampleCommad/exampleCommad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Command/exampleCommandFour/exampleCommandFour.iml" filepath="$PROJECT_DIR$/Command/exampleCommandFour/exampleCommandFour.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/exampleCommandThree/exampleCommandThree.iml" filepath="$PROJECT_DIR$/Command/exampleCommandThree/exampleCommandThree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command/exampleCommandTwo/exampleCommandTwo.iml" filepath="$PROJECT_DIR$/Command/exampleCommandTwo/exampleCommandTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/factoryMethod/factoryMethod.iml" filepath="$PROJECT_DIR$/factoryMethod/factoryMethod.iml" />
