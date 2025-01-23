@@ -1,5 +1,6 @@
 package variables;
 
+import command.NewRule;
 import command.UndefinedVariablesCommand;
 
 import command.UnusedVariablesCommand;
@@ -36,5 +37,7 @@ public class PythonVariableExtractor implements VariablesExtractor {
         ruleManager.setRuleCommandToAST(new UnusedVariablesCommand(algorithm));
         ruleManager.activateRule();
 
+        ruleManager.setRuleCommandToAST(new NewRule(algorithm));
+        ruleManager.activateRule();
     }
 }

@@ -5,6 +5,9 @@
       <module name="exampleBuilder" target="21" />
       <module name="exampleBuilder.main" target="21" />
       <module name="exampleBuilder.test" target="21" />
+      <module name="factoryMethodExample" target="21" />
+      <module name="factoryMethodExample.main" target="21" />
+      <module name="factoryMethodExample.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

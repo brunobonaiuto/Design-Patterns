@@ -36,6 +36,15 @@ public class ASTAlgorithmForPython implements AST {
         currentOutputVariables.add("f2");
     }
 
+    @Override
+    public void getNewRule() {
+        System.out.println("Applying rule to script \"getNewRule\"");
+        script += ", state 3";
+
+        currentInputVariables.add("x3");
+        currentOutputVariables.add("f3");
+    }
+
 
     public Variables getVariables() {
         PythonVariables variables = new PythonVariables();
