@@ -2,6 +2,11 @@ package mediator;
 
 import Componets.Component;
 
+/**
+ * Concrete Mediators encapsulate relations between various components.
+ * Concrete mediators often keep references to all components they manage and sometimes even manage their lifecycle.
+ */
+
 public class ConcreteMediator implements Mediator{
 
     private Component componentA;

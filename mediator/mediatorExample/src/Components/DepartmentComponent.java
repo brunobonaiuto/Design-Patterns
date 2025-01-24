@@ -1,6 +1,6 @@
-package Componets;
+package Components;
 
-import mediator.Mediator;
+import Mediator.OfficeMediator;
 
 /**
  * Components are various classes that contain some business logic.
@@ -8,10 +8,10 @@ import mediator.Mediator;
  * The component isn’t aware of the actual class of the mediator,
  * so you can reuse the component in other programs by linking it to a different mediator.
  */
-public interface Component {
+public interface DepartmentComponent {
 
-    void setMediatorOperation(Mediator mediator);
+    void setMediatorOperation(OfficeMediator mediator);
     void sendOperation(String anyEvent); //also called sendMessage
-    void receiveOperation(); //also called receiveMessage
+    void receiveOperation(String event); //also called receiveMessage
 
 }

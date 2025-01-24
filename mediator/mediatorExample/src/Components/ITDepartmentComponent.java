@@ -1,6 +1,6 @@
-package Componets;
+package Components;
 
-import mediator.Mediator;
+import Mediator.OfficeMediator;
 
 /**
  * Each component has a reference to a mediator, declared with the type of the mediator interface.
@@ -12,25 +12,27 @@ import mediator.Mediator;
  * From a component’s perspective, it all looks like a total black box.
  * The sender doesn’t know who’ll end up handling its request, and the receiver doesn’t know who sent the request in the first place.
  */
-public class ComponentA implements Component {
+public class ITDepartmentComponent implements DepartmentComponent {
 
     /**
      * The component has a reference to a mediator object.
      */
-    private Mediator mediator;
+    private OfficeMediator mediator;
 
     @Override
-    public void setMediatorOperation(Mediator mediator) {
+    public void setMediatorOperation(OfficeMediator mediator) {
         this.mediator = mediator;
     }
 
     @Override
     public void sendOperation(String anyEvent) {
-        mediator.notify(this, anyEvent);
+        // Depending on the Component, the mediator will notify the correct component. Since the mediator knows all the components, it can notify the correct one.
+        mediator.notifyToComponents(this, anyEvent);
     }
 
     @Override
-    public void receiveOperation() {
-        System.out.println("Component A has received the message correctly.");
+    public void receiveOperation(String event) {
+        // The component tells the mediator that it has received the message.
+        System.out.println("IT Department received: " + event);
     }
 }
