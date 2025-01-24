@@ -23,8 +23,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/factoryMethodExample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/factoryMethodExample.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/factoryMethodExample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/factoryMethodExample.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediator/mediator.iml" filepath="$PROJECT_DIR$/mediator/mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediator/mediatorExample/mediatorExample.iml" filepath="$PROJECT_DIR$/mediator/mediatorExample/mediatorExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/singelton/singelton.iml" filepath="$PROJECT_DIR$/singelton/singelton.iml" />
       <module fileurl="file://$PROJECT_DIR$/templateMethod/templateMethod.iml" filepath="$PROJECT_DIR$/templateMethod/templateMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/templateMethod/templateMethodExample/templateMethodExample.iml" filepath="$PROJECT_DIR$/templateMethod/templateMethodExample/templateMethodExample.iml" />
     </modules>
   </component>
 </project>

@@ -5,7 +5,6 @@ package AbstractClasses;
  *   as well as the actual template method which calls these methods in a specific order.
  * - The steps may either be declared abstract or have some default implementation.
  */
-
 public abstract class AbstractClass {
     /**
      * The template method defines the skeleton of an algorithm. The Steps of an algorithm are defined in this method.

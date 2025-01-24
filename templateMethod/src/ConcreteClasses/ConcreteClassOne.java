@@ -2,10 +2,14 @@ package ConcreteClasses;
 
 import AbstractClasses.AbstractClass;
 
+/**
+ * Concrete Classes can override all of the steps, but not the template method itself.
+ */
+
 public class ConcreteClassOne extends AbstractClass {
     /**
      * Note that the concreteClass should implement ALL the abstract methods from the abstract class
-     * Each step would be exectued in the order defined in the templateMethod
+     * Each step would be executed in the order defined in the templateMethod
      */
 
     @Override
